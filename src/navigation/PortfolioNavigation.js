@@ -14,7 +14,6 @@ export default function PortfolioNavigation() {
     <Stack.Navigator>
               <Stack.Screen name="Portfolio" component={PortfolioScreen} options={{title: "Trabajos Realizados"}}/>
               <Stack.Screen name="DetallePortfolio" component={DetallePortfolioScreen} options={{title: "Detalles"}}/>
-
     </Stack.Navigator>
   )
 }

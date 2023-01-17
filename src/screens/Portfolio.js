@@ -11,9 +11,9 @@ export default function Portfolio() {
 
   const [trabajos, setTrabajos] = useState([])
 
-
+ /*
   useEffect(() => {
-  
+ 
     const collectionRef = collection(db, 'portfolio')
     const q = query(collectionRef, orderBy('nombre', 'desc'))
 
@@ -28,9 +28,9 @@ export default function Portfolio() {
     })
     console.log(unsuscribe.toString())
     return unsuscribe
-  
   },[])
 
+  */
 
   return (
     <SafeAreaView>
