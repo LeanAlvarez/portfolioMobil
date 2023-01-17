@@ -12,7 +12,7 @@ export default function PortfolioNavigation() {
       <Stack.Navigator>
                 <Stack.Screen name="SignUp" component={SignupScreen} options={{headerShown: false}} />
                 <Stack.Screen name="Login" component={LoginScreen}  options={{headerShown: false}}/>
-                
+               
       </Stack.Navigator>
     )
   }
