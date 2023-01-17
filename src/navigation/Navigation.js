@@ -8,6 +8,7 @@ import {createBottomTabNavigator} from '@react-navigation/bottom-tabs'
 import Icon  from 'react-native-vector-icons/Feather'
 
 import HomeNavigation from './HomeNavigation'
+import AuthNavigation from '../navigation/auth/AuthNavigation';
 
 
 
@@ -22,8 +23,11 @@ const Stack = createStackNavigator()
 export default function Navigation() {
   return (
     <Stack.Navigator>
-                <Stack.Screen name="home" component={HomeNavigation} options={{headerShown: false}} />
-                <Stack.Screen name="Login" component={LoginNavigation} options={{headerShown: false}} />
+                    
+                 <Stack.Screen name="home" component={HomeNavigation} options={{headerShown: false}} />   
+                 <Stack.Screen name="Login" component={AuthNavigation} options={{headerShown: false}} />
+                
+                
     </Stack.Navigator>
   
 /*

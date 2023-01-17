@@ -4,7 +4,7 @@ import {createBottomTabNavigator} from '@react-navigation/bottom-tabs'
 import Icon  from 'react-native-vector-icons/Feather'
 
 
-import { createStackNavigator } from '@react-navigation/stack'
+
 
 import HomeScreen from '../screens/Home'
 import PortfolioNavigation from '../screens/Portfolio'
